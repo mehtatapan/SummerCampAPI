@@ -1,0 +1,5 @@
+﻿Add-Migration -Context CampWebApiContext -o Data\SCMigrations Initial
+Update-Database -Context CampWebApiContext 
+
+Add To Migration:
+ExtraMigration.Steps(migrationBuilder);
